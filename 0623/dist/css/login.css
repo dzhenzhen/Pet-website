@@ -1,0 +1,140 @@
+.login-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 6;
+  display: none; }
+
+.login-modal-a {
+  display: none;
+  z-index: 6;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -225px;
+  margin-top: -200px;
+  height: 422px;
+  width: 400px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 50px;
+  /*    .xx{
+      position: fixed;
+      right: 0;
+      top: 0;
+      width: 10px;
+      height: 10px;
+      background: red;
+      z-index: 7;
+      color: white;
+      font-size: 10px;
+    }  */ }
+  .login-modal-a .login-1 {
+    width: 330px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 20px; }
+    .login-modal-a .login-1 .login-1-1 {
+      width: 330px;
+      display: flex; }
+      .login-modal-a .login-1 .login-1-1 div {
+        flex: 1; }
+  .login-modal-a .login-1-1 div:nth-of-type(1) {
+    border-right: 1px solid gray; }
+  .login-modal-a .login-1-1 .active {
+    color: red; }
+  .login-modal-a .login-1-2 {
+    position: relative;
+    width: 322px;
+    margin: 0 auto; }
+  .login-modal-a .login-1-2 .active {
+    display: block; }
+  .login-modal-a .login-1-2 > div {
+    margin-top: 20px;
+    display: none;
+    position: absolute;
+    width: 322px;
+    height: 106px; }
+  .login-modal-a .login-1-2 > div input {
+    margin: 10px 0;
+    height: 40px;
+    width: 322px;
+    background: white;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid gray; }
+  .login-modal-a .login-btn input {
+    margin-top: 180px;
+    width: 322px;
+    height: 40px;
+    border-radius: 20px;
+    border: none; }
+
+.login-modal-b {
+  display: none;
+  z-index: 6;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -225px;
+  margin-top: -200px;
+  height: 422px;
+  width: 400px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 50px; }
+  .login-modal-b .login-1 {
+    width: 330px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 20px; }
+    .login-modal-b .login-1 .login-1-1 {
+      width: 330px;
+      display: flex; }
+      .login-modal-b .login-1 .login-1-1 div {
+        flex: 1; }
+  .login-modal-b .login-1-1 div:nth-of-type(1) {
+    border-right: 1px solid gray; }
+  .login-modal-b .login-1-1 .active {
+    color: red; }
+  .login-modal-b .login-1-2 {
+    position: relative;
+    width: 322px;
+    margin: 0 auto; }
+  .login-modal-b .login-1-2 .active {
+    display: block; }
+  .login-modal-b .login-1-2 > div {
+    margin-top: 20px;
+    display: none;
+    position: absolute;
+    width: 322px;
+    height: 106px; }
+  .login-modal-b .login-1-2 > div input {
+    margin: 10px 0;
+    height: 40px;
+    width: 322px;
+    background: white;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid gray; }
+  .login-modal-b .login-btn input {
+    margin-top: 180px;
+    width: 322px;
+    height: 40px;
+    border-radius: 20px;
+    border: none; }
